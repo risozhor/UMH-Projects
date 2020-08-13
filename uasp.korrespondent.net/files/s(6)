@@ -1,0 +1,9 @@
+(function (divName){
+ 	var bn_url='https://h.holder.com.ua/c?z5774&b113222&k1377480935&s012731',holderDiv = holder(divName),width=960,height=218;
+if(holderDiv)holderDiv.options.bn_url=bn_url;
+holderDiv.div.id='bottom';
+function load(){new MTr(holderDiv.div.id, {site:9,format:0});}
+if(typeof MTr=='undefined')holder.loadScript('//i.mediatraffic.com.ua/js/uho/mt20_3.js',load);
+else load();
+})('holder_960x218_74');
+var s=document.createElement('script'),p=document.getElementsByTagName('script'),l=p.length;s.async=true;s.type='text/javascript';s.src=location.protocol+'//source.mmi.bemobile.ua/cm/cmeter_an.js#tnscm_adn=holder&uid=1b55d0755a264840&bc=113222';p[l-1].parentNode.insertBefore(s,p[l-1].nextSibling);

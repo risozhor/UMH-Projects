@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="550px" height="502px" viewBox="0 0 550 502" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Path Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="61.7666097%" y1="0%" x2="11.2717622%" y2="97.6157534%" id="linearGradient-1">
+            <stop stop-color="#FE6C4C" offset="0%"></stop>
+            <stop stop-color="#FAB304" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD1" transform="translate(0.000000, -1098.000000)" fill="url(#linearGradient-1)">
+            <path d="M172.524393,1144.2876 C48.2835506,1209.06563 32.8141979,1280.1125 -350.239746,1357.42822 C-733.293691,1434.74393 -697.716957,1372.05551 -802.114258,1357.42822 C-906.511559,1342.80092 -1064.99496,1507.73333 -1064.99496,1770.09233 C-1064.99496,2032.45133 -858.500915,2554.30184 -675.914315,2542.5511 C-493.327716,2530.80037 -534.146739,2508.09975 -365.338851,2506.48359 C-196.530962,2504.86743 -194.392186,2761.62866 119.48046,2691.5989 C558.036317,2593.75044 695.242027,1916.74748 671.181893,1693.85605 C647.121759,1470.96461 749.311204,1393.64185 617.858451,1248.76829 C486.405699,1103.89474 296.765236,1079.50957 172.524393,1144.2876 Z" id="Path-Copy" transform="translate(-189.235061, 1907.034177) scale(-1, -1) rotate(30.000000) translate(189.235061, -1907.034177) "></path>
+        </g>
+    </g>
+</svg>

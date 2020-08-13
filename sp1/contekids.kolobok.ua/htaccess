@@ -1,0 +1,45 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page6043827.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^wella2$ page3908942.html [NC]
+RewriteRule ^wella2/$ page3908942.html [NC]
+
+RewriteRule ^wella3$ page3909105.html [NC]
+RewriteRule ^wella3/$ page3909105.html [NC]
+
+RewriteRule ^wella4$ page3909062.html [NC]
+RewriteRule ^wella4/$ page3909062.html [NC]
+
+RewriteRule ^wella1$ page3884894.html [NC]
+RewriteRule ^wella1/$ page3884894.html [NC]
+
+RewriteRule ^znakomtes_nashi_shkipery$ page6869462.html [NC]
+RewriteRule ^znakomtes_nashi_shkipery/$ page6869462.html [NC]
+
+RewriteRule ^na_chem_poplivem$ page6893855.html [NC]
+RewriteRule ^na_chem_poplivem/$ page6893855.html [NC]
+
+RewriteRule ^strategia_pobedi$ page6895574.html [NC]
+RewriteRule ^strategia_pobedi/$ page6895574.html [NC]
+
+RewriteRule ^2$ page8439935.html [NC]
+RewriteRule ^2/$ page8439935.html [NC]
+
+RewriteRule ^4$ page8450770.html [NC]
+RewriteRule ^4/$ page8450770.html [NC]
+
+RewriteRule ^12$ page8486806.html [NC]
+RewriteRule ^12/$ page8486806.html [NC]
+
+RewriteRule ^865$ page8490288.html [NC]
+RewriteRule ^865/$ page8490288.html [NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/tild3437-3039-4238-b536-383332386239/football.ico [R=302,L]
+

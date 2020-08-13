@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/onepage-scroll.css">
+
+    <title>Стань императором застолья!</title>
+    <meta name="description" content="Дескрипш: Задавай вопросы философам и выигрывай путевку в Румынию!">
+
+    <meta property="og:url" content="https://alexandrion.korrespondent.net/index.html" />
+    <meta property="og:title" content="Стань императором застолья!" />
+    <meta property="og:description" content="Дескрипш: Задавай вопросы философам и выигрывай путевку в Румынию!" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://alexandrion.korrespondent.net/images/fbs.png" />
+    <link rel="canonical" href="https://alexandrion.korrespondent.net/index.html">
+    <meta property="fb:app_id" content="257953674358265">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://alexandrion.korrespondent.net/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+    <link rel="manifest" href="https://alexandrion.korrespondent.net/images/site.webmanifest">
+    <link rel="mask-icon" href="./images/safari-pinned-tab.svg" color="#f7962c">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="Alexandrion конкурс">
+    <meta name="application-name" content="Alexandrion конкурс">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="https://alexandrion.korrespondent.net/images/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1609229-45"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-1609229-45');
+    </script>
+  </head>
+  <body class="solid-lines">
+
+
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img class="logo hidden-xs" src="images/logo3.png" alt="">
+          <img class="logo hidden-desk" src="images/logo_m.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ml-auto text-uppercase">
+            <li class="nav-item">
+              <a class="nav-link" href="table.html">Участники</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="https://docs.google.com/document/d/1da8C4gw3G3sVOplvtAqTHS9gYXcX1frDZr1TYvrwoLA">Правила</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-toggle="modal" data-target="#gifts">Призы</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black-50 bold" href="#" data-toggle="modal" data-target="#about">Про Alexandrion</a>
+            </li>
+          </ul>
+        </div>
+    </div>
+      </nav>
+      <div class="scr1">
+        <div class="container">
+          <div class="row pt-8">
+
+            <div class="col-12"><h2 class="slogan_mob">Император застолья</h2></div>
+            <div class="col-12">
+              Узнавай ответы на «вечные» вопросы и выигрывай поездку на родину напитка!
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container scr2">
+        <div class="row pt-10">
+          <div class="col-12">
+            <div class="chat-window">
+              <div class="chat-history d-flex justify-content-between flex-column">
+                <div class="dialog" style="overflow-y: auto">
+                  <ul class="question hidden-desk" style="height: auto;">
+                    <li><a href="#q1">Где находится центр Вселенной?</a></li>
+                    <li><a href="#q2">Что появилось первым: яйцо или курица?</a></li>
+                    <li><a href="#q3">Сколько мегапикселей у человеческого глаза?</a></li>
+                    <li><a href="#q4">Почему бутерброд всегда падает маслом вниз?</a></li>
+                    <li><a href="#q5">Как удалить весь интернет?</a></li>
+                    <li><a href="#q6">Какого цвета зеркало?</a></li>
+                    <li><a href="#q7">Чей голос мы слышим в голове при чтении?</a></li>
+                    <li><a href="#q8">Почему невозможно чихнуть с открытыми глазами?</a></li>
+                    <li><a href="#q9">Почему мизинец на ногах страдает больше всего?</a></li>
+                    <li><a href="#q10">Есть ли люди, которые помнят себя в чреве своей мамы?</a></li>
+                    <li><a href="#q11">Как работает механизм любви?</a></li>
+                    <li><a href="#q12">Где голуби прячут своих птенцов?</a></li>
+                    <li><a href="#q13">Если у яда заканчивается срок годности, то он становится еще более ядовитым или перестает им быть?</a></li>
+                    <li><a href="#q14">Почему обозначением неизвестного служит именно X?</a></li>
+                    <li><a href="#q15">На какой вопрос вы не знаете ответ?</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <div class="row printing hidden">
+                  <div class="col-2 ">
+                    <div class="chat-member"></div>
+                  </div>
+                  <div class="col-10 mt-auto">
+                    <span class="thinker">Философ</span> печатает
+                    <div class="printing-dots">
+                      <div class="circ1"></div>
+                      <div class="circ2"></div>
+                      <div class="circ3"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="busy w-100 hidden">
+                  <div class="circ1"></div>
+                  <div class="circ2"></div>
+                  <div class="circ3"></div>
+                </div>
+                <form class="w-100 align-self-end" action="">
+                  <div class="input-group">
+                    <textarea id="textareamob" class="textarea form-control" placeholder="Задайте свой вопрос здесь"></textarea>
+                    <div class="input-group-prepend">
+                      <button class="btn btn-outline-secondary button-send" type="button" id="">Отправить</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="container scr3">
+        <div class="row h-100">
+          <div class="col-12 align-self-center"><img src="images/warning2.png" class="w-100"></div>
+        </div>
+      </div>
+
+
+
+    <div class="main hidden-xs">
+
+      <img class="bubble hidden-xs" src="images/babl_verhniy2.svg" style="position: absolute;right: 0;">
+
+        <section id="first" class="hidden-xs">
+          <div class="container-fluid">
+            <div class="row main-page-text">
+              <div class="col-md-6 pb-5 pt-12 d-flex flex-column justify-content-between">
+                <h2 class="slogan">Император застолья</h2>
+                <!--<img src="images/imperator.png" class="fullwith" alt="">-->
+                <p class="w-75 pt-3">Вам знакома ситуация, когда за столом разгорается захватывающая дискуссия, а Вы остаетесь в стороне из-за отсутствия подходящих доводов? Застолье - это не только вкусная трапеза, а и возможность сверкнуть эрудицией. </p>
+                <div class="pointer mt-auto" data-index="2"  onclick="$('.main').moveDown();GoToChat();">
+                  <img src="images/tochat2.png" alt="" style="width: 270px;">
+                </div>
+              </div>
+              <div class="col-md-6 mt-10 philosoph">
+
+              </div>
+            </div>
+            <div class="bottle"></div>
+          </div>
+        </section>
+
+        <section id="second" class="hidden-xs">
+          <div class="container-fluid">
+            <div class="  ">
+              <div class="mt-10 row ">
+                <img class="bottle2 hidden-xs" src="images/bottle2.png" alt="">
+
+                <div class="col-md-4 mb-5">
+
+                  <div class="chat-window justify-content-between ">
+                    <div class="chat-history d-flex justify-content-between flex-column">
+                      <div class="dialog"></div>
+                    </div>
+                    <div>
+                      <div class="row printing hidden">
+                        <div class="col-2 ">
+                          <div class="chat-member"></div>
+                        </div>
+                        <div class="col-10 mt-auto">
+                          <span id="thinker">Философ</span> печатает
+                          <div class="printing-dots">
+                            <div class="circ1"></div>
+                            <div class="circ2"></div>
+                            <div class="circ3"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="busy w-100 hidden">
+                        <div class="circ1"></div>
+                        <div class="circ2"></div>
+                        <div class="circ3"></div>
+                      </div>
+                      <form class="w-100 align-self-end" action="">
+                        <div class="input-group">
+                          <textarea id="textarea" class="textarea form-control" placeholder="Задайте свой вопрос здесь"></textarea>
+                          <div class="input-group-prepend">
+                            <button class="btn btn-outline-secondary button-send" type="button" id="button-send2">Отправить</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="col-md-8 mb-5">
+                  <div class="d-flex justify-content-between flex-column h-100">
+
+                    <div class="row">
+                      <div class="col-8">
+                        <!--<p class="text-white">Я жду твой вопрос!</p>-->
+                        <h3 class="graphite">Они - гениальные мыслители с ноткой безумия (в хорошем смысле). Пускай твое любопытство не щадит их. Выбирай «вечные» вопросы из списка либо задавай свои в поле чата.</h3>
+                      </div>
+                      <div class="col-3">
+                        <img class="sidehead" src="images/sidehead.png" alt="">
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-md-8">
+                        <ul class="question">
+                          <li><a href="#q1">Где находится центр Вселенной?</a></li>
+                          <li><a href="#q2">Что появилось первым: яйцо или курица?</a></li>
+                          <li><a href="#q3">Сколько мегапикселей у человеческого глаза?</a></li>
+                          <li><a href="#q4">Почему бутерброд всегда падает маслом вниз?</a></li>
+                          <li><a href="#q5">Как удалить весь интернет?</a></li>
+                          <li><a href="#q6">Какого цвета зеркало?</a></li>
+                          <li><a href="#q7">Чей голос мы слышим в голове при чтении?</a></li>
+                          <li><a href="#q8">Почему невозможно чихнуть с открытыми глазами?</a></li>
+                          <li><a href="#q9">Почему мизинец на ногах страдает больше всего?</a></li>
+                          <li><a href="#q10">Есть ли люди, которые помнят себя в чреве своей мамы?</a></li>
+                          <li><a href="#q11">Как работает механизм любви?</a></li>
+                          <li><a href="#q12">Где голуби прячут своих птенцов?</a></li>
+                          <li><a href="#q13">Если у яда заканчивается срок годности, то он становится еще более ядовитым или перестает им быть?</a></li>
+                          <li><a href="#q14">Почему обозначением неизвестного служит именно X?</a></li>
+                          <li><a href="#q15">На какой вопрос вы не знаете ответ?</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-md-4 d-flex align-items-end justify-content-center">
+                        <div class="glass-container ">
+                          <img src="images/glassbottle.png" alt="">
+                        </div>
+
+
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <!--<div class="bottle"></div>-->
+            </div>
+          </div>
+        </section>
+        <section style="background: white">
+          <div class="container-fluid h-100">
+            <div class="row h-100">
+              <div class="col-md-12 h-100 d-flex align-items-center justify-content-center">
+
+                <!--<h1 class="text-uppercase text-center">Надмірне споживання <br>шкідливе для вашого здоров'я</h1>-->
+                <img src="images/warning2.png" class="w-100">
+              </div>
+            </div>
+          </div>
+
+
+          <!--<div style="background: aquamarine;height: 140px;z-index: 99999;bottom: calc(100% - 140px);position: absolute;width: 100%;"></div>-->
+        </section>
+    </div>
+  <div class="modal fade" id="gifts" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <!--<h3 class="modal-title text-center">Призы</h3>-->
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <div class="row">
+            <div class="col-md-4">
+              <h4>1 место</h4>
+              <p class="pb-3 pt-1 p-gift">За самый оригинальный <br>вопрос философам!</p>
+              <img src="images/gift1.png" alt="">
+              <p class="py-3 p-gift">
+                <small>4-х дневный тур на двоих в Румынию ("Все включено!") c экскурсиями по Бухаресту, Трансильвании и заводу «ALEXANDRION»</small>
+              </p>
+
+            </div>
+            <div class="col-md-4">
+              <h4>2 место</h4>
+              <p class="pb-3 pt-1 p-gift">За самый оригинальный <br>вопрос философам!</p>
+              <img src="images/gift2.png" alt="">
+              <p class="py-3 p-gift">
+                <small>Стратегический запас ALEXANDRION на новогодние и рождественские праздники</small>
+              </p>
+
+            </div>
+            <div class="col-md-4">
+              <h4>3 место</h4>
+              <p class="pb-3 pt-1 p-gift">За самый насущный <br>вопрос философам!</p>
+              <img src="images/gift3.png" alt="">
+              <p class="py-3 p-gift">
+                <small>Подарочная коробка ALEXANDRION 7 <br>звезд 0,7 л. + 2 бокала</small>
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12"><a target="_blank" href="https://docs.google.com/document/d/1da8C4gw3G3sVOplvtAqTHS9gYXcX1frDZr1TYvrwoLA" class="rules-link">Официальные правила участия</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="about" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body about-modal">
+
+          <div class="row pb-5 mb-5">
+            <div class="col-0 col-lg-3 text-center">
+              <img class="about-top-img" src="images/about-top.png" alt="">
+            </div>
+            <div class="col-lg-7">
+              <h3 class="pb-2">Alexandrion</h3>
+              <p>Аутентичная традиционная рецептура и технология изготовления ALEXANDRION остаются неизменными десятилетиями — таким образом подчеркивается греческое происхождение напитка. Изюминка бренди кроется в его «теле»: винный дистиллят зреет в дубовых бочках и выдерживается в идеальных условиях в погребах. Благодаря искусной оригинальной технологии мастера-купажа «тело» напитка сохраняется во время процесса блендинга, а качество в каждой бутылке до капли соответствует высоким стандартам!</p>
+              <p>ALEXANDRION 7* имеет насыщенный янтарный цвет с золотистыми отливами. В букете ненавязчиво сочетаются ароматы сухофруктов, меда и ванили.</p>
+              <p>ALEXANDRION 5* имеет золотисто-янтарный цвет. В букете раскрываются приятные нотки свежего винограда и легкие древесные оттенки, которыми напиток насыщается в дубовых бочках.</p>
+            <p>&nbsp;</p>
+            </div>
+          </div>
+          <img class="about-bottom-img" src="images/about-bottom.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="registration" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <!--<h5 class="modal-title">Регистрация</h5>-->
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <h5>Для участия в конкурсе просим заполнить форму ниже:</h5>
+          <form class="sub py-3" id="form">
+            <div class="form-group">
+              <input type="text"  id="username" name="fio" required class="form-control form-text form-fio"  placeholder="Как к вам обращаться">
+            </div>
+            <div class="form-group">
+              <input type="email"  id="email" name="email" required class="form-control form-text form-email" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <input type="tel" id="tel" name="phone" required class="form-control form-text form-phone"  placeholder="Телефон для связи" mask="(011)-111-1111">
+            </div>
+            <span id="note"></span>
+            <input type="hidden"  id="hidden" name="hidden" value="">
+
+            <div class="form-group form-check custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="gdpr">
+              <label class="custom-control-label" for="gdpr"><small>Даю свое согласие на обработку указанных данных</small></label>
+            </div>
+            <input id="submit" type="submit" value="Отправить"  class="form-send btn btn-info ">
+          </form>
+          <p class="register-note">
+            <small>*не переживайте, мы не передает данные третим лицам и не используем их для рассылки спама</small>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="age" tabindex="-1" role="dialog" aria-hidden="false">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-body text-center">
+          <p class="text-white">Вам есть 18 лет?</p>
+            <div class="form-group py-4">
+              <button id="age_yes" type="button" class="btn btn-primary"  data-dismiss="modal" aria-label="Close">Да</button>
+              <button id="age_no" type="button" class="btn btn-primary " onclick="$('#age_yes').attr('disabled', true);$('#age_alert').removeClass('hidden');">Нет</button>
+            </div>
+          <p>
+            <small id="age_alert" class="hidden text-white">Извините, для использования <br> сайта вам должно быть не<br> меньше 18 лет</small>
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+      <script src="js/jquery-3.3.1.slim.min.js"></script>
+      <script src="js/jquery.onepage-scroll.js"></script>
+      <!--<script src="js/popper.min.js"></script>-->
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/app.js"></script>
+
+  </body>
+</html>

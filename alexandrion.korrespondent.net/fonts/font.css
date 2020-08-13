@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'NewYork-Regular12';
+  src: url('NewYork-Regular12.eot');
+  src: url('NewYork-Regular12.eot?#iefix') format('embedded-opentype'),
+       url('NewYork-Regular12.svg#NewYork-Regular12') format('svg'),
+       url('NewYork-Regular12.ttf') format('truetype'),
+       url('NewYork-Regular12.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

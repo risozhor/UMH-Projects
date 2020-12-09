@@ -1,15 +1,3 @@
-// const rootscript = document.getElementById("jq");
-// const rootdiv = document.createElement('div');
-// rootdiv.innerHTML=`
-//
-// <script src="./js/jquery.onepage-scroll.js"></script>
-//
-// <script src="./js/bootstrap.min.js"></script>
-// `
-// rootscript.after(rootdiv);
-
-
-
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 (function() {
     'use strict';

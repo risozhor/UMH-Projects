@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4866e1b8-289e-4c54-b99e-00d99b9fb3af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/proj/40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sp-pages/w40.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ua-pages/w40.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../alexandrion.korrespondent.net/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../alexandrion.korrespondent.net/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ua.html" beforeDir="false" afterPath="$PROJECT_DIR$/ua.html" afterDir="false" />
@@ -60,7 +56,9 @@
       <workItem from="1589459945695" duration="4000" />
       <workItem from="1595251557648" duration="1149000" />
       <workItem from="1595258381203" duration="6000" />
-      <workItem from="1604916533555" duration="1357000" />
+      <workItem from="1604916533555" duration="2192000" />
+      <workItem from="1605715577515" duration="5000" />
+      <workItem from="1607528539958" duration="3458000" />
     </task>
     <servers />
   </component>
@@ -72,7 +70,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

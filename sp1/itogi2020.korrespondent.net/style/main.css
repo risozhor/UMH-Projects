@@ -1,0 +1,161 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,900");
+/* line 6, /Users/roman/itogi/style/reset.css */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+/* line 27, /Users/roman/itogi/style/reset.css */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 31, /Users/roman/itogi/style/reset.css */
+body {
+  line-height: 1; }
+
+/* line 34, /Users/roman/itogi/style/reset.css */
+ol, ul {
+  list-style: none; }
+
+/* line 37, /Users/roman/itogi/style/reset.css */
+blockquote, q {
+  quotes: none; }
+
+/* line 40, /Users/roman/itogi/style/reset.css */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+/* line 45, /Users/roman/itogi/style/reset.css */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 50, /Users/roman/itogi/style/reset.css */
+a {
+  color: inherit;
+  text-decoration: none; }
+
+/* line 6, /Users/roman/itogi/style/main.scss */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #000;
+  color: #fff;
+  position: relative; }
+
+/* line 13, /Users/roman/itogi/style/main.scss */
+.wrap, .header__top {
+  max-width: 1024px;
+  margin: auto; }
+
+/* line 18, /Users/roman/itogi/style/main.scss */
+.header {
+  position: fixed;
+  z-index: 500;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  background-color: #c50304;
+  border-bottom: 1px solid #c50304;
+  text-transform: uppercase; }
+  /* line 31, /Users/roman/itogi/style/main.scss */
+  .header__bottom {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: #c50304;
+    font-size: 14px;
+    font-weight: 500; }
+
+/* line 44, /Users/roman/itogi/style/main.scss */
+.page__title {
+  margin-left: 20px;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 1.2; }
+
+/* line 51, /Users/roman/itogi/style/main.scss */
+.nav__link {
+  position: relative;
+  padding: 15px 15px 5px;
+  transition: all .2s; }
+  /* line 55, /Users/roman/itogi/style/main.scss */
+  .nav__link_active, .nav__link:hover {
+    background-color: #c50304;
+    color: #fff; }
+    /* line 58, /Users/roman/itogi/style/main.scss */
+    .nav__link_active:before, .nav__link:hover:before {
+      content: '';
+      background-color: #c50304;
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 140%; }
+
+/* line 71, /Users/roman/itogi/style/main.scss */
+.event {
+  width: 100vw;
+  height: 100vh;
+  position: relative; }
+  /* line 75, /Users/roman/itogi/style/main.scss */
+  .event__image {
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%; }
+  /* line 84, /Users/roman/itogi/style/main.scss */
+  .event__article {
+    position: absolute;
+    z-index: 100;
+    right: 100px;
+    top: 0;
+    height: 100%;
+    width: 311px;
+    background-color: black;
+    padding: 160px 26px 26px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.2; }
+  /* line 98, /Users/roman/itogi/style/main.scss */
+  .event__title {
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 35px 0;
+    position: relative;
+    left: -100px;
+    width: 400px; }
+
+.event__title_size {
+  font-size: 28px;
+}
+
+/*# sourceMappingURL=main.css.map */

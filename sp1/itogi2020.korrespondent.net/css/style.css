@@ -3539,19 +3539,32 @@ body {
     -webkit-animation-delay: 0.5s;
     animation-delay: 0.5s;
 }
-
 .main-title:nth-child(2) {
     top: 200px;
     width: 700px;
     -webkit-animation-delay: 1s;
     animation-delay: 1s;
 }
-
 .main-title:nth-child(3) {
     top: 400px;
     width: 500px;
     -webkit-animation-delay: 1.5s;
     animation-delay: 1.5s;
+}
+@media (min-width: 1001px) and (max-width: 1400px) {
+    .main-title {font-size: 70px;}
+    .main-title__wrap {top: 70px;}
+    .main-title:nth-child(1) {
+        width: 2000px;
+    }
+    .main-title:nth-child(2) {
+        top: 100px;
+        width: 700px;
+    }
+    .main-title:nth-child(3) {
+        top: 200px;
+        width: 500px;
+    }
 }
 
 .main-title__wrap {

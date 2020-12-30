@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Евровидение-2020</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=yes">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <style type="text/css">
+        body, td, th {
+            font-family: proxima, Arial, sans-serif;
+        }
+    </style>
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/matchMedia.js"></script>
+    <script src="js/slick.js"></script>
+</head>
+<body class="bg_body">
+<div class="layout">
+    <header class="header">
+        <div class="block_logo">
+            <a href="" class="logo_top"> <img src="i/logo_top3.png"  alt=""/></a>
+            <a href="" class="logo_korr"><img src="i/logo_korr.png" width="280" height="17" alt=""/></a>
+        </div>
+    </header>
+    <nav class="menu_top">
+        <div class="menu menu_link"><a onclick="return false;" href=""><span class="icon-menu"></span></a></div>
+        <div class="auth auth_link"><a onclick="return false;" href=""><span class="icon-user"></span></a></div>
+        <ul>
+            <li class="menu_top__item"><a href="main.html" class="menu_top__link">Главная</a></li>
+            <li class="menu_top__item"><a href="news_list.html" class="menu_top__link">Новости</a></li>
+            <li class="menu_top__item"><a href="profile_list.html" class="menu_top__link">Участники</a></li>
+            <li class="menu_top__item"><a href="profile_list_ua.html" class="menu_top__link">Украина</a></li>
+            <!--<li class="menu_top__item menu_top__link_active"><a href="vote_ua.html" class="menu_top__link">Голосование</a></li>-->
+            <li class="menu_top__item"><a href="calendar_list.html" class="menu_top__link">Календарь</a></li>
+            <li class="menu_top__item"><a href="facts_list.html" class="menu_top__link">Факты о конкурсе</a></li>
+            <li class="menu_top__item"><a href="opinions_list.html" class="menu_top__link">Лидеры мнений</a></li>
+        </ul>
+    </nav>
+</div>
+<div class="layout layout_first">
+    <div class="main_content">
+        <div class="main_content_wrapper">
+            <h1 class="section_title">Голосование</h1>
+            <p class="topic_description">Зарегистрируйся – отдай голос за любимого участника – <br>получи подарок</p>
+
+            <div class="block_paricipiants">
+
+                <div class="paricipiants_list">
+
+                    <div class="paricipiants_list__item auth_vote">
+                        <div class="paricipiants_card">
+                            <div class="paricipiants_card__img"><img src="img/p1.jpg" width="300" height="166"></div>
+                            <div class="paricipiants_card__cover"></div>
+                            <div class="paricipiants_card__info">
+                                <div class="paricipiants_card__flag"><img src="img/flag_ukr.png" width="30" height="22"
+                                                                          alt=""/></div>
+                                <div class="paricipiants_card__description">
+                                    <div class="paricipiants_card__country">Украина</div>
+                                    <div class="paricipiants_card__name">Intars Busulis</div>
+                                    <div class="paricipiants_card__counter">2345</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="paricipiants_list__item auth_vote_notlogedin">
+                        <div class="paricipiants_card">
+                            <div class="paricipiants_card__img"><img src="img/p2.jpg" width="300" height="166"></div>
+                            <div class="paricipiants_card__cover"></div>
+                            <div class="paricipiants_card__info">
+                                <div class="paricipiants_card__flag"><img src="img/flag_swe.png" width="30" height="22"
+                                                                          alt=""/></div>
+                                <div class="paricipiants_card__description">
+                                    <div class="paricipiants_card__country">Швеция</div>
+                                    <div class="paricipiants_card__name">Lovebugs</div>
+                                    <div class="paricipiants_card__counter">2345</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="paricipiants_list__item auth_vote_notlogedin">
+                        <div class="paricipiants_card">
+                            <div class="paricipiants_card__img"><img src="img/p3.jpg" width="300" height="166"></div>
+                            <div class="paricipiants_card__cover"></div>
+                            <div class="paricipiants_card__info">
+                                <div class="paricipiants_card__flag"><img src="img/flag_rus.png" width="30" height="22"
+                                                                          alt=""/></div>
+                                <div class="paricipiants_card__description">
+                                    <div class="paricipiants_card__country">Россия</div>
+                                    <div class="paricipiants_card__name">Copycat</div>
+                                    <div class="paricipiants_card__counter">2345</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="paricipiants_list__item auth_vote_notlogedin">
+                        <div class="paricipiants_card">
+                            <div class="paricipiants_card__img"><img src="img/p4.jpg" width="300" height="166"></div>
+                            <div class="paricipiants_card__cover"></div>
+                            <div class="paricipiants_card__info">
+                                <div class="paricipiants_card__flag"><img src="img/flag_aut.png" width="30" height="22"
+                                                                          alt=""/></div>
+                                <div class="paricipiants_card__description">
+                                    <div class="paricipiants_card__country">Австрия</div>
+                                    <div class="paricipiants_card__name">Nathan Trent</div>
+                                    <div class="paricipiants_card__counter">2345</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="paricipiants_list__item auth_vote_notlogedin">
+                        <div class="paricipiants_card">
+                            <div class="paricipiants_card__img"><img src="img/p5.jpg" width="300" height="166"></div>
+                            <div class="paricipiants_card__cover"></div>
+                            <div class="paricipiants_card__info">
+                                <div class="paricipiants_card__flag"><img src="img/flag_cro.png" width="30" height="22"
+                                                                          alt=""/></div>
+                                <div class="paricipiants_card__description">
+                                    <div class="paricipiants_card__country">Хорватия</div>
+                                    <div class="paricipiants_card__name">maNga</div>
+                                    <div class="paricipiants_card__counter">2345</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="paricipiants_list__item auth_vote_notlogedin">
+                        <div class="paricipiants_card">
+                            <div class="paricipiants_card__img"><img src="img/p6.jpg" width="300" height="166"></div>
+                            <div class="paricipiants_card__cover"></div>
+                            <div class="paricipiants_card__info">
+                                <div class="paricipiants_card__flag"><img src="img/flag_est.png" width="30" height="22"
+                                                                          alt=""/></div>
+                                <div class="paricipiants_card__description">
+                                    <div class="paricipiants_card__country">Эстония</div>
+                                    <div class="paricipiants_card__name">Kuunkuiskaajat</div>
+                                    <div class="paricipiants_card__counter">2345</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="paricipiants_list__item auth_vote_notlogedin">
+                        <div class="paricipiants_card">
+                            <div class="paricipiants_card__img"><img src="img/p7.jpg" width="300" height="166"></div>
+                            <div class="paricipiants_card__cover"></div>
+                            <div class="paricipiants_card__info">
+                                <div class="paricipiants_card__flag"><img src="img/flag_hun.png" width="30" height="22"
+                                                                          alt=""/></div>
+                                <div class="paricipiants_card__description">
+                                    <div class="paricipiants_card__country">Украина</div>
+                                    <div class="paricipiants_card__name">Malena Ernman</div>
+                                    <div class="paricipiants_card__counter">2345</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="paricipiants_list__item auth_vote_notlogedin">
+                        <div class="paricipiants_card">
+                            <div class="paricipiants_card__img"><img src="img/p8.jpg" width="300" height="166"></div>
+                            <div class="paricipiants_card__cover"></div>
+                            <div class="paricipiants_card__info">
+                                <div class="paricipiants_card__flag"><img src="img/flag_isr.png" width="30" height="22"
+                                                                          alt=""/></div>
+                                <div class="paricipiants_card__description">
+                                    <div class="paricipiants_card__country">Израиль</div>
+                                    <div class="paricipiants_card__name">Jade Ewen</div>
+                                    <div class="paricipiants_card__counter">2345</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="paricipiants_list__item auth_vote_notlogedin">
+                        <div class="paricipiants_card">
+                            <div class="paricipiants_card__img"><img src="img/p15.jpg" width="300" height="166"></div>
+                            <div class="paricipiants_card__cover"></div>
+                            <div class="paricipiants_card__info">
+                                <div class="paricipiants_card__flag"><img src="img/flag_lyt.png" width="30" height="22"
+                                                                          alt=""/></div>
+                                <div class="paricipiants_card__description">
+                                    <div class="paricipiants_card__country">Литва</div>
+                                    <div class="paricipiants_card__name">Elena</div>
+                                    <div class="paricipiants_card__counter">2345</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="paricipiants_list__item auth_vote_notlogedin">
+                        <div class="paricipiants_card">
+                            <div class="paricipiants_card__img"><img src="img/p9.jpg" width="300" height="166"></div>
+                            <div class="paricipiants_card__cover"></div>
+                            <div class="paricipiants_card__info">
+                                <div class="paricipiants_card__flag"><img src="img/flag_ire.png" width="30" height="22"
+                                                                          alt=""/></div>
+                                <div class="paricipiants_card__description">
+                                    <div class="paricipiants_card__country">Ирландия</div>
+                                    <div class="paricipiants_card__name">Flor-de-lis</div>
+                                    <div class="paricipiants_card__counter">2345</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="paricipiants_list__item auth_vote_notlogedin">
+                        <div class="paricipiants_card">
+                            <div class="paricipiants_card__img"><img src="img/p10.jpg" width="300" height="166"></div>
+                            <div class="paricipiants_card__cover"></div>
+                            <div class="paricipiants_card__info">
+                                <div class="paricipiants_card__flag"><img src="img/flag_nor.png" width="30" height="22"
+                                                                          alt=""/></div>
+                                <div class="paricipiants_card__description">
+                                    <div class="paricipiants_card__country">Норвегия</div>
+                                    <div class="paricipiants_card__name">Jacques Houdek</div>
+                                    <div class="paricipiants_card__counter">2345</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="paricipiants_list__item auth_vote_notlogedin">
+                        <div class="paricipiants_card">
+                            <div class="paricipiants_card__img"><img src="img/p11.jpg" width="300" height="166"></div>
+                            <div class="paricipiants_card__cover"></div>
+                            <div class="paricipiants_card__info">
+                                <div class="paricipiants_card__flag"><img src="img/flag_swi.png" width="30" height="22"
+                                                                          alt=""/></div>
+                                <div class="paricipiants_card__description">
+                                    <div class="paricipiants_card__country">Украина</div>
+                                    <div class="paricipiants_card__name">Brendan Murray</div>
+                                    <div class="paricipiants_card__counter">2345</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="paricipiants_list__item auth_vote_notlogedin">
+                        <div class="paricipiants_card">
+                            <div class="paricipiants_card__img"><img src="img/p12.jpg" width="300" height="166"></div>
+                            <div class="paricipiants_card__cover"></div>
+                            <div class="paricipiants_card__info">
+                                <div class="paricipiants_card__flag"><img src="img/flag_fra.png" width="30" height="22"
+                                                                          alt=""/></div>
+                                <div class="paricipiants_card__description">
+                                    <div class="paricipiants_card__country">Франция</div>
+                                    <div class="paricipiants_card__name">Lovebugs</div>
+                                    <div class="paricipiants_card__counter">2345</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="paricipiants_list__item auth_vote_notlogedin">
+                        <div class="paricipiants_card">
+                            <div class="paricipiants_card__img"><img src="img/p13.jpg" width="300" height="166"></div>
+                            <div class="paricipiants_card__cover"></div>
+                            <div class="paricipiants_card__info">
+                                <div class="paricipiants_card__flag"><img src="img/flag_ger.png" width="30" height="22"
+                                                                          alt=""/></div>
+                                <div class="paricipiants_card__description">
+                                    <div class="paricipiants_card__country">Германия</div>
+                                    <div class="paricipiants_card__name">Jessy Matador</div>
+                                    <div class="paricipiants_card__counter">2345</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="paricipiants_list__item auth_vote_notlogedin">
+                        <div class="paricipiants_card">
+                            <div class="paricipiants_card__img"><img src="img/p14.jpg" width="300" height="166"></div>
+                            <div class="paricipiants_card__cover"></div>
+                            <div class="paricipiants_card__info">
+                                <div class="paricipiants_card__flag"><img src="img/flag_srb.png" width="30" height="22"
+                                                                          alt=""/></div>
+                                <div class="paricipiants_card__description">
+                                    <div class="paricipiants_card__country">Сербия</div>
+                                    <div class="paricipiants_card__name">Jana Bur?eska</div>
+                                    <div class="paricipiants_card__counter">2345</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="paricipiants_list__item auth_vote_notlogedin">
+                        <div class="paricipiants_card">
+                            <div class="paricipiants_card__img"><img src="img/p8.jpg" width="300" height="166"></div>
+                            <div class="paricipiants_card__cover"></div>
+                            <div class="paricipiants_card__info">
+                                <div class="paricipiants_card__flag"><img src="img/flag_isr.png" width="30" height="22"
+                                                                          alt=""/></div>
+                                <div class="paricipiants_card__description">
+                                    <div class="paricipiants_card__country">Израиль</div>
+                                    <div class="paricipiants_card__name">Jade Ewen</div>
+                                    <div class="paricipiants_card__counter">2345</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="paricipiants_list__item auth_vote_notlogedin">
+                        <div class="paricipiants_card">
+                            <div class="paricipiants_card__img"><img src="img/p15.jpg" width="300" height="166"></div>
+                            <div class="paricipiants_card__cover"></div>
+                            <div class="paricipiants_card__info">
+                                <div class="paricipiants_card__flag"><img src="img/flag_lyt.png" width="30" height="22"
+                                                                          alt=""/></div>
+                                <div class="paricipiants_card__description">
+                                    <div class="paricipiants_card__country">Литва</div>
+                                    <div class="paricipiants_card__name">Elena</div>
+                                    <div class="paricipiants_card__counter">2345</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="paricipiants_list__item auth_vote_notlogedin">
+                        <a class="paricipiants_card">
+                            <div class="paricipiants_card__img"><img src="img/p9.jpg" width="300" height="166"></div>
+                            <div class="paricipiants_card__cover"></div>
+                            <div class="paricipiants_card__info">
+                                <div class="paricipiants_card__flag"><img src="img/flag_ire.png" width="30" height="22"
+                                                                          alt=""/></div>
+                                <div class="paricipiants_card__description">
+                                    <div class="paricipiants_card__country">Ирландия</div>
+                                    <div class="paricipiants_card__name">Flor-de-lis</div>
+                                    <div class="paricipiants_card__counter">2345</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="paricipiants_list__item auth_vote_notlogedin">
+                        <div class="paricipiants_card">
+                            <div class="paricipiants_card__img"><img src="img/p1.jpg" width="300" height="166"></div>
+                            <div class="paricipiants_card__cover"></div>
+                            <div class="paricipiants_card__info">
+                                <div class="paricipiants_card__flag"><img src="img/flag_ukr.png" width="30" height="22"
+                                                                          alt=""/></div>
+                                <div class="paricipiants_card__description">
+                                    <div class="paricipiants_card__country">Украина</div>
+                                    <div class="paricipiants_card__name">Intars Busulis</div>
+                                    <div class="paricipiants_card__counter">2345</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="paricipiants_list__item auth_vote_notlogedin">
+                        <div class="paricipiants_card">
+                            <div class="paricipiants_card__img"><img src="img/p2.jpg" width="300" height="166"></div>
+                            <div class="paricipiants_card__cover"></div>
+                            <div class="paricipiants_card__info">
+                                <div class="paricipiants_card__flag"><img src="img/flag_swe.png" width="30" height="22"
+                                                                          alt=""/></div>
+                                <div class="paricipiants_card__description">
+                                    <div class="paricipiants_card__country">Швеция</div>
+                                    <div class="paricipiants_card__name">Lovebugs</div>
+                                    <div class="paricipiants_card__counter">2345</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="paricipiants_list__item auth_vote_notlogedin">
+                        <div class="paricipiants_card">
+                            <div class="paricipiants_card__img"><img src="img/p3.jpg" width="300" height="166"></div>
+                            <div class="paricipiants_card__cover"></div>
+                            <div class="paricipiants_card__info">
+                                <div class="paricipiants_card__flag"><img src="img/flag_rus.png" width="30" height="22"
+                                                                          alt=""/></div>
+                                <div class="paricipiants_card__description">
+                                    <div class="paricipiants_card__country">Россия</div>
+                                    <div class="paricipiants_card__name">Copycat</div>
+                                    <div class="paricipiants_card__counter">2345</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="paricipiants_list__item auth_vote_notlogedin">
+                        <div class="paricipiants_card">
+                            <div class="paricipiants_card__img"><img src="img/p4.jpg" width="300" height="166"></div>
+                            <div class="paricipiants_card__cover"></div>
+                            <div class="paricipiants_card__info">
+                                <div class="paricipiants_card__flag"><img src="img/flag_aut.png" width="30" height="22"
+                                                                          alt=""/></div>
+                                <div class="paricipiants_card__description">
+                                    <div class="paricipiants_card__country">Австрия</div>
+                                    <div class="paricipiants_card__name">Nathan Trent</div>
+                                    <div class="paricipiants_card__counter">2345</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="paricipiants_list__item auth_vote_notlogedin">
+                        <div class="paricipiants_card">
+                            <div class="paricipiants_card__img"><img src="img/p5.jpg" width="300" height="166"></div>
+                            <div class="paricipiants_card__cover"></div>
+                            <div class="paricipiants_card__info">
+                                <div class="paricipiants_card__flag"><img src="img/flag_cro.png" width="30" height="22"
+                                                                          alt=""/></div>
+                                <div class="paricipiants_card__description">
+                                    <div class="paricipiants_card__country">Хорватия</div>
+                                    <div class="paricipiants_card__name">maNga</div>
+                                    <div class="paricipiants_card__counter">2345</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="paricipiants_list__item auth_vote_notlogedin">
+                        <div class="paricipiants_card">
+                            <div class="paricipiants_card__img"><img src="img/p6.jpg" width="300" height="166"></div>
+                            <div class="paricipiants_card__cover"></div>
+                            <div class="paricipiants_card__info">
+                                <div class="paricipiants_card__flag"><img src="img/flag_est.png" width="30" height="22"
+                                                                          alt=""/></div>
+                                <div class="paricipiants_card__description">
+                                    <div class="paricipiants_card__country">Эстония</div>
+                                    <div class="paricipiants_card__name">Kuunkuiskaajat</div>
+                                    <div class="paricipiants_card__counter">2345</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="paricipiants_list__item auth_vote_notlogedin">
+                        <div class="paricipiants_card">
+                            <div class="paricipiants_card__img"><img src="img/p7.jpg" width="300" height="166"></div>
+                            <div class="paricipiants_card__cover"></div>
+                            <div class="paricipiants_card__info">
+                                <div class="paricipiants_card__flag"><img src="img/flag_hun.png" width="30" height="22"
+                                                                          alt=""/></div>
+                                <div class="paricipiants_card__description">
+                                    <div class="paricipiants_card__country">Украина</div>
+                                    <div class="paricipiants_card__name">Malena Ernman</div>
+                                    <div class="paricipiants_card__counter">2345</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="paricipiants_list__item auth_vote_notlogedin">
+                        <div class="paricipiants_card">
+                            <div class="paricipiants_card__img"><img src="img/p8.jpg" width="300" height="166"></div>
+                            <div class="paricipiants_card__cover"></div>
+                            <div class="paricipiants_card__info">
+                                <div class="paricipiants_card__flag"><img src="img/flag_isr.png" width="30" height="22"
+                                                                          alt=""/></div>
+                                <div class="paricipiants_card__description">
+                                    <div class="paricipiants_card__country">Израиль</div>
+                                    <div class="paricipiants_card__name">Jade Ewen</div>
+                                    <div class="paricipiants_card__counter">2345</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="paricipiants_list__item auth_vote_notlogedin">
+                        <div class="paricipiants_card">
+                            <div class="paricipiants_card__img"><img src="img/p15.jpg" width="300" height="166"></div>
+                            <div class="paricipiants_card__cover"></div>
+                            <div class="paricipiants_card__info">
+                                <div class="paricipiants_card__flag"><img src="img/flag_lyt.png" width="30" height="22"
+                                                                          alt=""/></div>
+                                <div class="paricipiants_card__description">
+                                    <div class="paricipiants_card__country">Литва</div>
+                                    <div class="paricipiants_card__name">Elena</div>
+                                    <div class="paricipiants_card__counter">2345</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="paricipiants_list__item auth_vote_notlogedin">
+                        <div class="paricipiants_card">
+                            <div class="paricipiants_card__img"><img src="img/p9.jpg" width="300" height="166"></div>
+                            <div class="paricipiants_card__cover"></div>
+                            <div class="paricipiants_card__info">
+                                <div class="paricipiants_card__flag"><img src="img/flag_ire.png" width="30" height="22"
+                                                                          alt=""/></div>
+                                <div class="paricipiants_card__description">
+                                    <div class="paricipiants_card__country">Ирландия</div>
+                                    <div class="paricipiants_card__name">Flor-de-lis</div>
+                                    <div class="paricipiants_card__counter">2345</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="paricipiants_list__item auth_vote_notlogedin">
+                        <div class="paricipiants_card">
+                            <div class="paricipiants_card__img"><img src="img/p10.jpg" width="300" height="166"></div>
+                            <div class="paricipiants_card__cover"></div>
+                            <div class="paricipiants_card__info">
+                                <div class="paricipiants_card__flag"><img src="img/flag_nor.png" width="30" height="22"
+                                                                          alt=""/></div>
+                                <div class="paricipiants_card__description">
+                                    <div class="paricipiants_card__country">Норвегия</div>
+                                    <div class="paricipiants_card__name">Jacques Houdek</div>
+                                    <div class="paricipiants_card__counter">2345</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="paricipiants_list__item auth_vote_notlogedin">
+                        <div class="paricipiants_card">
+                            <div class="paricipiants_card__img"><img src="img/p11.jpg" width="300" height="166"></div>
+                            <div class="paricipiants_card__cover"></div>
+                            <div class="paricipiants_card__info">
+                                <div class="paricipiants_card__flag"><img src="img/flag_swi.png" width="30" height="22"
+                                                                          alt=""/></div>
+                                <div class="paricipiants_card__description">
+                                    <div class="paricipiants_card__country">Украина</div>
+                                    <div class="paricipiants_card__name">Brendan Murray</div>
+                                    <div class="paricipiants_card__counter">2345</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="paricipiants_list__item auth_vote_notlogedin">
+                        <div class="paricipiants_card">
+                            <div class="paricipiants_card__img"><img src="img/p12.jpg" width="300" height="166"></div>
+                            <div class="paricipiants_card__cover"></div>
+                            <div class="paricipiants_card__info">
+                                <div class="paricipiants_card__flag"><img src="img/flag_fra.png" width="30" height="22"
+                                                                          alt=""/></div>
+                                <div class="paricipiants_card__description">
+                                    <div class="paricipiants_card__country">Франция</div>
+                                    <div class="paricipiants_card__name">Lovebugs</div>
+                                    <div class="paricipiants_card__counter">2345</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="paricipiants_list__item auth_vote_notlogedin">
+                        <div class="paricipiants_card">
+                            <div class="paricipiants_card__img"><img src="img/p13.jpg" width="300" height="166"></div>
+                            <div class="paricipiants_card__cover"></div>
+                            <div class="paricipiants_card__info">
+                                <div class="paricipiants_card__flag"><img src="img/flag_ger.png" width="30" height="22"
+                                                                          alt=""/></div>
+                                <div class="paricipiants_card__description">
+                                    <div class="paricipiants_card__country">Германия</div>
+                                    <div class="paricipiants_card__name">Jessy Matador</div>
+                                    <div class="paricipiants_card__counter">2345</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="paricipiants_list__item auth_vote_notlogedin">
+                        <div class="paricipiants_card">
+                            <div class="paricipiants_card__img"><img src="img/p14.jpg" width="300" height="166"></div>
+                            <div class="paricipiants_card__cover"></div>
+                            <div class="paricipiants_card__info">
+                                <div class="paricipiants_card__flag"><img src="img/flag_srb.png" width="30" height="22"
+                                                                          alt=""/></div>
+                                <div class="paricipiants_card__description">
+                                    <div class="paricipiants_card__country">Сербия</div>
+                                    <div class="paricipiants_card__name">Jana Bur?eska</div>
+                                    <div class="paricipiants_card__counter">2345</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="paricipiants_list__item auth_vote_notlogedin">
+                        <div class="paricipiants_card">
+                            <div class="paricipiants_card__img"><img src="img/p8.jpg" width="300" height="166"></div>
+                            <div class="paricipiants_card__cover"></div>
+                            <div class="paricipiants_card__info">
+                                <div class="paricipiants_card__flag"><img src="img/flag_isr.png" width="30" height="22"
+                                                                          alt=""/></div>
+                                <div class="paricipiants_card__description">
+                                    <div class="paricipiants_card__country">Израиль</div>
+                                    <div class="paricipiants_card__name">Jade Ewen</div>
+                                    <div class="paricipiants_card__counter">2345</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="paricipiants_list__item auth_vote_notlogedin">
+                        <div class="paricipiants_card">
+                            <div class="paricipiants_card__img"><img src="img/p15.jpg" width="300" height="166"></div>
+                            <div class="paricipiants_card__cover"></div>
+                            <div class="paricipiants_card__info">
+                                <div class="paricipiants_card__flag"><img src="img/flag_lyt.png" width="30" height="22"
+                                                                          alt=""/></div>
+                                <div class="paricipiants_card__description">
+                                    <div class="paricipiants_card__country">Литва</div>
+                                    <div class="paricipiants_card__name">Elena</div>
+                                    <div class="paricipiants_card__counter">2345</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="paricipiants_list__item auth_vote_notlogedin">
+                        <div class="paricipiants_card">
+                            <div class="paricipiants_card__img"><img src="img/p9.jpg" width="300" height="166"></div>
+                            <div class="paricipiants_card__cover"></div>
+                            <div class="paricipiants_card__info">
+                                <div class="paricipiants_card__flag"><img src="img/flag_ire.png" width="30" height="22"
+                                                                          alt=""/></div>
+                                <div class="paricipiants_card__description">
+                                    <div class="paricipiants_card__country">Ирландия</div>
+                                    <div class="paricipiants_card__name">Flor-de-lis</div>
+                                    <div class="paricipiants_card__counter">2345</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="right_column">
+        <div class="block_counter">
+            <div class="block_counter__title">До финала конкурса осталось</div>
+            <div class="block_counter__data"><span>95</span> дней <span>5</span> часов</div>
+        </div>
+
+        <div class="block_side_banner">
+            <div class="block_banner"></div>
+        </div>
+
+        <div class="block_news">
+
+            <div class="block__header"><a href="">Последние новости</a></div>
+
+
+            <div class="article article_small">
+                <div class="article__img"><a href=""><img src="img/simg1.jpg" width="85" height="47" alt=""/></a></div>
+                <div class="article__title"><a href="">Британию на Евровидении представит участница «Х-фактора» </a>
+                </div>
+            </div>
+
+            <div class="article article_small">
+                <div class="article__img"><a href=""><img src="img/simg2.jpg" width="85" height="47" alt=""/></a></div>
+                <div class="article__title"><a href="">Отбор на «Евровидение-2020». Видео с первого полуфинала</a></div>
+            </div>
+
+            <div class="article article_small">
+                <div class="article__img"><a href=""><img src="img/simg3.jpg" width="85" height="47" alt=""/></a></div>
+                <div class="article__title"><a href="">Отбор на «Евровидение-2020». Видео с первого полуфинала</a></div>
+            </div>
+
+            <div class="article article_small">
+                <div class="article__img"><a href=""><img src="img/simg4.jpg" width="85" height="47" alt=""/></a></div>
+                <div class="article__title"><a href="">Швейцарию на Евровидении-2020 представит Timebelle</a></div>
+            </div>
+
+            <div class="btn_holder">
+                <button class="btn_more btn_more_small"><span>Все новости</span></button>
+            </div>
+
+        </div>
+
+
+        <div class="block_twitter">
+
+            <div class="block__header_white"><span>#eurovision2020</span></div>
+
+            <div class="block_twitter__code">
+                <a class="twitter-timeline" data-height="600" data-dnt="true"
+                   href="https://twitter.com/Eurovision?ref_src=twsrc%5Etfw">Tweets by Eurovision</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+        </div>
+
+
+        <div class="block_side_banner">
+            <div class="block_banner"></div>
+        </div>
+
+    </div>
+</div>
+
+
+<div class="layout">
+    <footer class="footer">
+        <div class="footer_copy">
+            © 2016, ООО «Издательский Дом УМХ». Все права защищены.<br><br>
+            Использование любых материалов, размещённых на сайте, разрешается при условии ссылки на Корреспондент.net.
+            При копировании материалов со страницы «Новости Украины и мира», для интернет-изданий – обязательна прямая
+            открытая для поисковых систем
+            гиперссылка. Ссылка должна быть размещена в независимости от полного либо частичного использования
+            материалов.
+            Гиперссылка (для интернет- изданий) – должна быть размещена в подзаголовке или в первом абзаце материала.
+        </div>
+
+        <div class="footer_bg"></div>
+    </footer>
+
+</div>
+
+
+<div class="modal_auth modal_white">
+    <div class="close_link close_link_auth">
+        <div><a onclick="return false;" href=""><span class="icon-close"></span></a></div>
+    </div>
+    <div class="layout">
+
+        <div class="modal__title">Авторизация</div>
+
+        <div class="layout__inner">
+            <div class="auth__text">При помощи аккаунта в соцсетях:</div>
+            <div class="auth__list">
+                <a href="" class="auth__list__item">
+                    <span class="icon icon-facebook"></span>
+                    <span class="post__social__item__follows">Facebook</span>
+                </a>
+                <a href="" class="auth__list__item">
+                    <span class="icon icon-twitter"></span>
+                    <span class="post__social__item__follows">Twitter</span>
+                </a>
+                <a href="" class="auth__list__item">
+                    <span class="icon icon-google"></span>
+                    <span class="post__social__item__follows">Google</span>
+                </a>
+            </div>
+
+            <div class="auth__text">При помощи учетной записи на сайте Корреспондент.net:</div>
+            <div class="auth__list">
+                <form>
+                    <input id="email" class="popup__input" type="text" placeholder="E-mail" value="" name="" tabindex=""
+                           onblur="">
+                    <input id="password" class="popup__input" type="text" placeholder="Пароль" value="" name=""
+                           tabindex="" onblur="">
+                    <div class="auth__submit">
+                        <label class="input-control checkbox small-check">
+                            <input type="checkbox" checked="">
+                            <span class="check"></span> <span class="caption">Запомнить меня</span> </label>
+
+                        <input class="popup__submit" type="submit" value="Войти" id="" tabindex="" onclick="">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class="modal_vote modal_white">
+    <div class="close_link close_link_vote">
+        <div><a onclick="return false;" href=""><span class="icon-close"></span></a></div>
+    </div>
+    <div class="layout">
+        <div class="modal__title">Голосование</div>
+        <div class="layout__inner">
+            <div class="auth__text">Ваш голос защитан!</div>
+            <div class="auth__text">Поделиться новостью в соцсетях:</div>
+            <div class="auth__list ma w30p">
+                <a href="" class="auth__list__item w100p">
+                    <span class="icon icon-facebook"></span>
+                    <span class="post__social__item__follows">Facebook</span>
+                </a>
+                <!--<a href="" class="auth__list__item">-->
+                <!--<span class="icon icon-twitter"></span>-->
+                <!--<span class="post__social__item__follows">Twitter</span>-->
+                <!--</a>-->
+                <!--<a href="" class="auth__list__item">-->
+                <!--<span class="icon icon-google"></span>-->
+                <!--<span class="post__social__item__follows">Google</span>-->
+                <!--</a>-->
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal_vote_notlogedin modal_white">
+    <div class="close_link close_link_vote_notlogedin">
+        <div><a onclick="return false;" href=""><span class="icon-close"></span></a></div>
+    </div>
+    <div class="layout">
+        <div class="modal__title">Голосование</div>
+        <div class="layout__inner">
+            <div class="auth__text">Для голосования необходимо авторизоваться</div>
+            <div class="auth__text">при помощи аккаунта в соцсетях:</div>
+            <div class="auth__list">
+                <a href="" class="auth__list__item">
+                    <span class="icon icon-facebook"></span>
+                    <span class="post__social__item__follows">Facebook</span>
+                </a>
+                <a href="" class="auth__list__item">
+                    <span class="icon icon-twitter"></span>
+                    <span class="post__social__item__follows">Twitter</span>
+                </a>
+                <a href="" class="auth__list__item">
+                    <span class="icon icon-google"></span>
+                    <span class="post__social__item__follows">Google</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal_menu modal_white">
+    <div class="close_link close_link_menu">
+        <div><a onclick="return false;" href=""><span class="icon-close"></span></a></div>
+    </div>
+    <div class="layout">
+
+        <div class="layout__inner">
+            <div class="wide-nav">
+
+                <nav class="menu_modal">
+                    <ul>
+                        <li class="menu_top__item">
+                            <a href="" class="menu_top__link">Главная</a>
+                        </li>
+
+                        <li class="menu_top__item">
+                            <a href="" class="menu_top__link">Новости</a>
+                        </li>
+
+                        <li class="menu_top__item">
+                            <a href="" class="menu_top__link">Участники</a>
+                        </li>
+
+                        <li class="menu_top__item">
+                            <a href="" class="menu_top__link">Календарь</a>
+                        </li>
+
+                        <li class="menu_top__item">
+                            <a href="" class="menu_top__link">Факты о конкурсе</a>
+                        </li>
+
+                        <li class="menu_top__item">
+                            <a href="" class="menu_top__link">Лидеры мнений</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

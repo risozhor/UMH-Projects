@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2e203b18-6a7c-4639-86f0-bdc581217b75" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>css/custom.css</find>
+      <find>href=&quot;css/custom.css&quot;</find>
+      <find>css/style.css</find>
+      <find>./js/app.js</find>
+      <find>bord</find>
+      <find>Виктор Ященко</find>
+      <find>.ruber</find>
+      <find>rub</find>
+      <find>team-name</find>
+      <find>Директор по продаже рекламы РА Владимир Горшков: &lt;a href=&quot;mailto:v.gorshkov@adv.umh.ua&quot;&gt;v.gorshkov@adv.umh.ua&lt;/a&gt;</find>
+      <find>images/cro_big.png</find>
+      <find>100%</find>
+      <find>news-blocks-container</find>
+      <find>франц</find>
+      <find>container pt-3</find>
+      <find>Укажие</find>
+      <find>оделись в соцс</find>
+      <find>.embed-responsive-4by3</find>
+      <find>fa-</find>
+      <find>Поделись</find>
+      <find>.like-counter</find>
+      <find>ifra</find>
+      <find>&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;icon-circle fab fa-google-plus-g icon-default&quot;&gt;&lt;/a&gt;&lt;/li&gt;</find>
+      <find>&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;icon-circle fab fa-facebook-f icon-default&quot;&gt;&lt;/a&gt;&lt;/li&gt;</find>
+      <find>&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;icon-circle fab fa-twitter icon-default&quot;&gt;&lt;/a&gt;&lt;/li&gt;</find>
+      <find>&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;icon-circle fab fa-youtube icon-default&quot;&gt;&lt;/a&gt;&lt;/li&gt;</find>
+      <find>&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCDNzKbypqId2Zg_0Sefv_1w&quot; target=&quot;_blank&quot; class=&quot;icon-circle fab fa-youtube icon-default&quot;&gt;&lt;/a&gt;&lt;/li&gt;</find>
+      <find>goog</find>
+      <find>like-counter</find>
+      <find>lik</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>&lt;a href=&quot;team.html&quot;&gt;AUS&lt;/a&gt;</replace>
+      <replace>&lt;a href=&quot;team.html&quot;&gt;CRO&lt;/a&gt;</replace>
+      <replace>&lt;a href=&quot;team.html&quot;&gt;ARG&lt;/a&gt;</replace>
+      <replace>&lt;a href=&quot;team.html&quot;&gt;NGA&lt;/a&gt;</replace>
+      <replace>&lt;a href=&quot;team.html&quot;&gt;ISL&lt;/a&gt;</replace>
+      <replace>&lt;a href=&quot;game.html&quot;&gt;-:-&lt;/a&gt;</replace>
+      <replace>&lt;a href=&quot;game.html&quot;&gt;1:0&lt;/a&gt;</replace>
+      <replace>&lt;a href=&quot;game.html&quot;&gt;2:2&lt;/a&gt;</replace>
+      <replace>team.html#</replace>
+      <replace>&lt;a href=&quot;team.html&quot;</replace>
+      <replace>game.html</replace>
+      <replace>&lt;li&gt;&lt;a href=&quot;teams.html&quot;&gt;Сборные&lt;/a&gt;&lt;/li&gt;</replace>
+      <replace>&lt;li&gt;&lt;a href=&quot;tables.html&quot;&gt;Таблицы&lt;/a&gt;&lt;/li&gt;</replace>
+      <replace>&lt;li&gt;&lt;a href=&quot;games.html&quot;&gt;Матчи&lt;/a&gt;&lt;/li&gt;</replace>
+      <replace>&lt;li&gt;&lt;a href=&quot;news.html&quot;&gt;Новости&lt;/a&gt;&lt;/li&gt;</replace>
+      <replace>&lt;li&gt;&lt;a href=&quot;videos.html&quot;&gt;Видео&lt;/a&gt;&lt;/li&gt;</replace>
+      <replace>&lt;a href=&quot;news_page.html&quot;&gt;</replace>
+      <replace>umh.ua&lt;/a&gt;</replace>
+      <replace>&lt;span class=&quot;cred font-weight-bold&quot;&gt;LIVE&lt;/span&gt;</replace>
+      <replace>50&amp;</replace>
+      <replace>50%</replace>
+      <replace>47.5%</replace>
+      <replace>href=&quot;css/style.css&quot;</replace>
+      <replace>css/style.min.css</replace>
+      <replace>./js/app.min.js</replace>
+      <replace>Укажите</replace>
+      <replace />
+      <replace>&lt;li&gt;&lt;a href=&quot;https://www.facebook.com/footballua/&quot; target=&quot;_blank&quot; class=&quot;icon-circle fab fa-facebook-f icon-default&quot;&gt;&lt;/a&gt;&lt;/li&gt;</replace>
+      <replace>&lt;li&gt;&lt;a href=&quot;https://twitter.com/foot_ua/&quot; target=&quot;_blank&quot; class=&quot;icon-circle fab fa-twitter icon-default&quot;&gt;&lt;/a&gt;&lt;/li&gt;</replace>
+      <replace>&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCDNzKbypqId2Zg_0Sefv_1w&quot; target=&quot;_blank&quot; class=&quot;icon-circle fab fa-youtube icon-default&quot;&gt;&lt;/a&gt;&lt;/li&gt;</replace>
+    </replaceStrings>
+  </component>
+  <component name="ProjectId" id="1XO56Abxa35528YRkICWL9pqOyD" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Invalid elementsCSS</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Naming conventionsJavaScript</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e203b18-6a7c-4639-86f0-bdc581217b75" name="Default" comment="" />
+      <created>1532073498475</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532073498475</updated>
+      <workItem from="1532073499611" duration="1104000" />
+      <workItem from="1532080655539" duration="508000" />
+      <workItem from="1532087986509" duration="6806000" />
+      <workItem from="1532333314775" duration="21448000" />
+      <workItem from="1532413112182" duration="3590000" />
+      <workItem from="1532417619381" duration="7000" />
+      <workItem from="1532418639403" duration="25199000" />
+      <workItem from="1532510998834" duration="926000" />
+      <workItem from="1532687276802" duration="601000" />
+      <workItem from="1533105244419" duration="7680000" />
+      <workItem from="1533538330582" duration="19218000" />
+      <workItem from="1533625388859" duration="1422000" />
+      <workItem from="1536564921014" duration="21260000" />
+      <workItem from="1536822618750" duration="12000" />
+      <workItem from="1536911849514" duration="1594000" />
+      <workItem from="1537174585763" duration="2211000" />
+      <workItem from="1537177023685" duration="5909000" />
+      <workItem from="1537271812643" duration="8935000" />
+      <workItem from="1537343781712" duration="7428000" />
+      <workItem from="1537358969913" duration="28684000" />
+      <workItem from="1537513239362" duration="41583000" />
+      <workItem from="1537858184790" duration="8543000" />
+      <workItem from="1537883916739" duration="12405000" />
+      <workItem from="1538029214056" duration="17883000" />
+      <workItem from="1538462219787" duration="19088000" />
+      <workItem from="1538567758078" duration="9220000" />
+      <workItem from="1539087850649" duration="16549000" />
+      <workItem from="1539237074393" duration="6493000" />
+      <workItem from="1539669659308" duration="8436000" />
+      <workItem from="1539766905096" duration="6334000" />
+      <workItem from="1539856565407" duration="4016000" />
+      <workItem from="1539941342521" duration="660000" />
+      <workItem from="1540216200674" duration="5000" />
+      <workItem from="1540372651402" duration="2370000" />
+      <workItem from="1540468178901" duration="5031000" />
+      <workItem from="1540475255491" duration="16645000" />
+      <workItem from="1540892235214" duration="253000" />
+      <workItem from="1540895323695" duration="1332000" />
+      <workItem from="1540902174201" duration="13000" />
+      <workItem from="1541073999207" duration="3838000" />
+      <workItem from="1547038483305" duration="5035000" />
+      <workItem from="1549968506098" duration="662000" />
+      <workItem from="1550829117440" duration="1893000" />
+      <workItem from="1550831215187" duration="45000" />
+      <workItem from="1550831302041" duration="70000" />
+      <workItem from="1550831389132" duration="958000" />
+      <workItem from="1551079764121" duration="1756000" />
+      <workItem from="1551181879052" duration="2248000" />
+      <workItem from="1551262567458" duration="8000" />
+      <workItem from="1551703391547" duration="714000" />
+      <workItem from="1551790731702" duration="2682000" />
+      <workItem from="1551869893859" duration="36000" />
+      <workItem from="1551873294508" duration="362000" />
+      <workItem from="1551967743715" duration="1192000" />
+      <workItem from="1552373558539" duration="3000" />
+      <workItem from="1552910006322" duration="748000" />
+      <workItem from="1552923293687" duration="57000" />
+      <workItem from="1553094402484" duration="998000" />
+      <workItem from="1553096267945" duration="905000" />
+      <workItem from="1553162542700" duration="37000" />
+      <workItem from="1553238802006" duration="696000" />
+      <workItem from="1553265190335" duration="1129000" />
+      <workItem from="1553266842578" duration="76000" />
+      <workItem from="1553266940324" duration="1627000" />
+      <workItem from="1553590792353" duration="9000" />
+      <workItem from="1553607626854" duration="1392000" />
+      <workItem from="1553688010783" duration="7000" />
+      <workItem from="1553688656639" duration="1000" />
+      <workItem from="1553689318030" duration="18000" />
+      <workItem from="1553690949162" duration="1017000" />
+      <workItem from="1553756980455" duration="37000" />
+      <workItem from="1553765768555" duration="623000" />
+      <workItem from="1553766828319" duration="2507000" />
+      <workItem from="1553778697443" duration="1971000" />
+      <workItem from="1554981905027" duration="18000" />
+      <workItem from="1567581958162" duration="1140000" />
+      <workItem from="1567585739410" duration="1203000" />
+      <workItem from="1567589617103" duration="23000" />
+      <workItem from="1580904124910" duration="3000" />
+      <workItem from="1593674265182" duration="1803000" />
+      <workItem from="1594033156320" duration="5000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
